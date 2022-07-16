@@ -1,0 +1,16 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+dtbo=dtbo.img
+dt=dtb.img
+kernel_size=44570640
+ramdisk_size=11305918
+dtb_offset=0x01f00000
+dtb_size=1633218
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0x0354c000
+cmd_line='androidboot.hardware=qcom androidboot.memcg=1 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 swiotlb=2048 loop.max_part=7 cgroup.memory=nokmem,nosocket reboot=panic_warm kpti=off androidboot.init_fatal_reboot_target=recovery console=null buildvariant=user'
+board=""
